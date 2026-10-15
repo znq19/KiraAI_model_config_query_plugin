@@ -122,7 +122,7 @@ class ModelConfigQueryPlugin(BasePlugin):
             else:
                 reply = f"当前 KiraAI 默认模型配置如下：\n{self._get_model_config()}"
 
-            await self.ctx.message_processor.send_message_chain(
+            await self.ctx.send_message_chain(
                 session=sid,
                 chain=MessageChain([Text(reply)])
             )

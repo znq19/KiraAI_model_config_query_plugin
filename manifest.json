@@ -1,7 +1,7 @@
 {
   "display_name": "模型配置查询助手",
   "plugin_id": "model_config_query",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "znq19",
   "description": "会话中查询 KiraAI 配置的默认模型名称，支持命令和白名单权限控制。",
   "repo": "https://github.com/znq19/KiraAI_model_config_query_plugin",
